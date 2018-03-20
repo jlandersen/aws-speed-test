@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #232F3E;
+}
+
+a {
+  color: rgb(71, 81, 92);
+}
+
+a:visited {
+  color: rgb(71, 81, 92);
+}

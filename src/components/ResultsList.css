@@ -1,0 +1,31 @@
+.resultslist__container {
+    width: 1100px;
+    margin: auto;
+}
+
+.resultslist__table {
+    width: 100%;
+}
+
+.resultslist__table th, td {
+    padding-left: 20px;
+    padding-right: 20px;    
+    padding-bottom: 1em;
+    text-align: left;
+}
+
+.resultslist__region {
+    width: 35%;
+}
+
+.resultslist__latency {
+    width: 25%;
+}
+
+.resultslist__latencybar {
+    width: 15%;
+}
+
+.resultslist__history {
+    width: 25%;
+}

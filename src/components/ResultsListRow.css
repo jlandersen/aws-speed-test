@@ -1,0 +1,18 @@
+.resultslist-row__progress {
+    background-color: #ccc;
+    height: 5px;
+}
+
+.resultslist-row__flag {
+    float: left;
+}
+
+.resultslist-row__name {
+    float: left;
+    margin-left: 15px;
+}
+
+.resultslist-row__region {
+    font-style: italic;
+    font-size: 14px;
+}
