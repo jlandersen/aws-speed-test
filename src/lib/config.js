@@ -1,5 +1,6 @@
 export default {
     locations: [
+        { id: 'ap-east-1', region: 'ap-east-1', name: 'Asia Pacific (Hong Kong)', ping: 'http://dynamodb.ap-east-1.amazonaws.com/ping', flag: 'https://cdn.rawgit.com/lipis/flag-icon-css/master/flags/4x3/hk.svg' },
         { id: 'ap-northeast-1', region: 'ap-northeast-1', name: 'Asia Pacific (Tokyo)', ping: 'http://dynamodb.ap-northeast-1.amazonaws.com/ping', flag: 'https://cdn.rawgit.com/lipis/flag-icon-css/master/flags/4x3/jp.svg' },
         { id: 'ap-northeast-2', region: 'ap-northeast-2', name: 'Asia Pacific (Seoul)', ping: 'http://dynamodb.ap-northeast-2.amazonaws.com/ping', flag: 'https://cdn.rawgit.com/lipis/flag-icon-css/master/flags/4x3/kr.svg' },
         { id: 'ap-northeast-3', region: 'ap-northeast-3', name: 'Asia Pacific (Osaka-Local)', ping: 'http://dynamodb.ap-northeast-3.amazonaws.com/ping', flag: 'https://cdn.rawgit.com/lipis/flag-icon-css/master/flags/4x3/jp.svg' },
@@ -8,16 +9,19 @@ export default {
         { id: 'ap-south-1', region: 'ap-south-1', name: 'Asia Pacific (Mumbai)', ping: 'http://dynamodb.ap-south-1.amazonaws.com/ping', flag: 'https://cdn.rawgit.com/lipis/flag-icon-css/master/flags/4x3/in.svg' },
         { id: 'ca-central-1', region: 'ca-central-1', name: 'Canada (Central)', ping: 'http://dynamodb.ca-central-1.amazonaws.com/ping', flag: 'https://cdn.rawgit.com/lipis/flag-icon-css/master/flags/4x3/ca.svg' },
         { id: 'cn-north-1', region: 'ca-north-1', name: 'China (Beijing)', ping: 'http://dynamodb.cn-north-1.amazonaws.com.cn/ping', flag: 'https://cdn.rawgit.com/lipis/flag-icon-css/master/flags/4x3/cn.svg' },
-        { id: 'cn-northwest1', region: 'ca-northwest-1', name: 'China (Ningxia)', ping: 'http://dynamodb.cn-northwest-1.amazonaws.com.cn/ping', flag: 'https://cdn.rawgit.com/lipis/flag-icon-css/master/flags/4x3/cn.svg' },
+        { id: 'cn-northwest-1', region: 'ca-northwest-1', name: 'China (Ningxia)', ping: 'http://dynamodb.cn-northwest-1.amazonaws.com.cn/ping', flag: 'https://cdn.rawgit.com/lipis/flag-icon-css/master/flags/4x3/cn.svg' },
+        { id: 'me-south-1', region: 'me-south-1', name: 'Middle East (Bahrain)', ping: 'http://dynamodb.me-south-1.amazonaws.com.cn/ping', flag: 'https://cdn.rawgit.com/lipis/flag-icon-css/master/flags/4x3/bh.svg' },
         { id: 'eu-west-1', region: 'eu-west-1', name: 'EU (Ireland)', ping: 'http://dynamodb.eu-west-1.amazonaws.com/ping', flag: 'https://cdn.rawgit.com/lipis/flag-icon-css/master/flags/4x3/ie.svg' },
         { id: 'eu-west-2', region: 'eu-west-2', name: 'EU (London)', ping: 'http://dynamodb.eu-west-2.amazonaws.com/ping', flag: 'https://cdn.rawgit.com/lipis/flag-icon-css/master/flags/4x3/gb.svg' },
         { id: 'eu-west-3', region: 'eu-west-3', name: 'EU (Paris)', ping: 'http://dynamodb.eu-west-3.amazonaws.com/ping', flag: 'https://cdn.rawgit.com/lipis/flag-icon-css/master/flags/4x3/fr.svg' },
         { id: 'eu-central-1', region: 'eu-central-1', name: 'EU (Frankfurt)', ping: 'http://dynamodb.eu-central-1.amazonaws.com/ping', flag: 'https://cdn.rawgit.com/lipis/flag-icon-css/master/flags/4x3/de.svg' },
+        { id: 'eu-north-1', region: 'eu-north-1', name: 'EU (Stockholm)', ping: 'http://dynamodb.eu-north-1.amazonaws.com/ping', flag: 'https://cdn.rawgit.com/lipis/flag-icon-css/master/flags/4x3/se.svg' },
         { id: 'sa-east-1', region: 'sa-east-1', name: 'South America (São Paulo)', ping: 'http://dynamodb.sa-east-1.amazonaws.com/ping', flag: 'https://cdn.rawgit.com/lipis/flag-icon-css/master/flags/4x3/br.svg' },
         { id: 'us-west-1', region: 'us-west-1', name: 'US West (N. Carolina)', ping: 'http://dynamodb.us-west-1.amazonaws.com/ping', flag: 'https://cdn.rawgit.com/lipis/flag-icon-css/master/flags/4x3/us.svg' },
         { id: 'us-west-2', region: 'us-west-2', name: 'US West (Oregon)', ping: 'http://dynamodb.us-west-2.amazonaws.com/ping', flag: 'https://cdn.rawgit.com/lipis/flag-icon-css/master/flags/4x3/us.svg' },
         { id: 'us-east-1', region: 'us-east-1', name: 'US East (N. Virginia)', ping: 'http://dynamodb.us-east-1.amazonaws.com/ping', flag: 'https://cdn.rawgit.com/lipis/flag-icon-css/master/flags/4x3/us.svg' },
         { id: 'us-east-2', region: 'us-east-2', name: 'US East (Ohio)', ping: 'http://dynamodb.us-east-2.amazonaws.com/ping', flag: 'https://cdn.rawgit.com/lipis/flag-icon-css/master/flags/4x3/us.svg' },
-        { id: 'us-gov-west-1', region: 'us-gov-west-1', name: 'US AWS GovCloud', ping: 'http://dynamodb.us-gov-west-1.amazonaws.com/ping', flag: 'https://cdn.rawgit.com/lipis/flag-icon-css/master/flags/4x3/us.svg' },
+        { id: 'us-gov-west-1', region: 'us-gov-west-1', name: 'GovCloud (US-West)', ping: 'http://dynamodb.us-gov-west-1.amazonaws.com/ping', flag: 'https://cdn.rawgit.com/lipis/flag-icon-css/master/flags/4x3/us.svg' },
+        { id: 'us-gov-east-1', region: 'us-gov-east-1', name: 'GovCloud (US-East)', ping: 'http://dynamodb.us-gov-east-1.amazonaws.com/ping', flag: 'https://cdn.rawgit.com/lipis/flag-icon-css/master/flags/4x3/us.svg' },
     ],
 };
