@@ -22,14 +22,14 @@ export default class ResultsList extends React.Component {
 
         let regionData = regions.map(r => ({
             region: this.props.results[r].id,
-            latestMeasurement: this.props.results[r].latestMeasurement,
+            latestMeasurement: this.props.results[r].latest,
             measurements: this.props.results[r].measurements,
             mean: this.props.results[r].mean,
             flag: this.props.results[r].flag,
             name: this.props.results[r].name,
         }));
         
-        let max = Math.max(regionData.map(r => r.mean));
+        let max = Math.max(...regionData.map(r => r.mean));
 
         let rows = regionData.map(r => (
             <ResultsListRow
