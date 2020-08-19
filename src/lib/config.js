@@ -1,5 +1,6 @@
 export default {
     locations: [
+        { id: 'af-south-1', region: 'af-south-1', name: 'Africa (Cape Town)', ping: 'http://dynamodb.af-south-1.amazonaws.com/ping', flag: 'https://cdn.jsdelivr.net/gh/lipis/flag-icon-css@master/flags/4x3/za.svg' },
         { id: 'ap-east-1', region: 'ap-east-1', name: 'Asia Pacific (Hong Kong)', ping: 'http://dynamodb.ap-east-1.amazonaws.com/ping', flag: 'https://cdn.jsdelivr.net/gh/lipis/flag-icon-css@master/flags/4x3/hk.svg' },
         { id: 'ap-northeast-1', region: 'ap-northeast-1', name: 'Asia Pacific (Tokyo)', ping: 'http://dynamodb.ap-northeast-1.amazonaws.com/ping', flag: 'https://cdn.jsdelivr.net/gh/lipis/flag-icon-css@master/flags/4x3/jp.svg' },
         { id: 'ap-northeast-2', region: 'ap-northeast-2', name: 'Asia Pacific (Seoul)', ping: 'http://dynamodb.ap-northeast-2.amazonaws.com/ping', flag: 'https://cdn.jsdelivr.net/gh/lipis/flag-icon-css@master/flags/4x3/kr.svg' },
@@ -16,6 +17,7 @@ export default {
         { id: 'eu-west-3', region: 'eu-west-3', name: 'EU (Paris)', ping: 'http://dynamodb.eu-west-3.amazonaws.com/ping', flag: 'https://cdn.jsdelivr.net/gh/lipis/flag-icon-css@master/flags/4x3/fr.svg' },
         { id: 'eu-central-1', region: 'eu-central-1', name: 'EU (Frankfurt)', ping: 'http://dynamodb.eu-central-1.amazonaws.com/ping', flag: 'https://cdn.jsdelivr.net/gh/lipis/flag-icon-css@master/flags/4x3/de.svg' },
         { id: 'eu-north-1', region: 'eu-north-1', name: 'EU (Stockholm)', ping: 'http://dynamodb.eu-north-1.amazonaws.com/ping', flag: 'https://cdn.jsdelivr.net/gh/lipis/flag-icon-css@master/flags/4x3/se.svg' },
+        { id: 'eu-south-1', region: 'eu-south-1', name: 'EU (Milan)', ping: 'http://dynamodb.eu-south-1.amazonaws.com/ping', flag: 'https://cdn.jsdelivr.net/gh/lipis/flag-icon-css@master/flags/4x3/it.svg' },
         { id: 'sa-east-1', region: 'sa-east-1', name: 'South America (São Paulo)', ping: 'http://dynamodb.sa-east-1.amazonaws.com/ping', flag: 'https://cdn.jsdelivr.net/gh/lipis/flag-icon-css@master/flags/4x3/br.svg' },
         { id: 'us-west-1', region: 'us-west-1', name: 'US West (N. Carolina)', ping: 'http://dynamodb.us-west-1.amazonaws.com/ping', flag: 'https://cdn.jsdelivr.net/gh/lipis/flag-icon-css@master/flags/4x3/us.svg' },
         { id: 'us-west-2', region: 'us-west-2', name: 'US West (Oregon)', ping: 'http://dynamodb.us-west-2.amazonaws.com/ping', flag: 'https://cdn.jsdelivr.net/gh/lipis/flag-icon-css@master/flags/4x3/us.svg' },
