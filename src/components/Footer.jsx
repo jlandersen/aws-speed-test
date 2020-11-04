@@ -7,7 +7,7 @@ export default class Footer extends React.PureComponent {
     return (
       <footer>
         <p>
-          The values presented on this site should only be used as an indication of the relative difference in latency for for accessing AWS endpoints between different regions.
+          The values presented on this site should only be used as an indication of the relative difference in latency for accessing AWS endpoints between different regions.
         </p>
         <p>
           Note for Firefox users, if you have privacy.resistFingerprinting enabled, latency resolution is lowered.
