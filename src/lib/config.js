@@ -15,6 +15,7 @@ export default {
         { id: 'eu-west-2', region: 'eu-west-2', name: 'EU (London)', ping: 'http://dynamodb.eu-west-2.amazonaws.com/ping', flag: 'https://cdn.jsdelivr.net/gh/lipis/flag-icon-css@master/flags/4x3/gb.svg' },
         { id: 'eu-west-3', region: 'eu-west-3', name: 'EU (Paris)', ping: 'http://dynamodb.eu-west-3.amazonaws.com/ping', flag: 'https://cdn.jsdelivr.net/gh/lipis/flag-icon-css@master/flags/4x3/fr.svg' },
         { id: 'eu-central-1', region: 'eu-central-1', name: 'EU (Frankfurt)', ping: 'http://dynamodb.eu-central-1.amazonaws.com/ping', flag: 'https://cdn.jsdelivr.net/gh/lipis/flag-icon-css@master/flags/4x3/de.svg' },
+        { id: 'eu-central-2', region: 'eu-central-2', name: 'EU (Zurich)', ping: 'http://dynamodb.eu-central-2.amazonaws.com/ping', flag: 'https://cdn.jsdelivr.net/gh/lipis/flag-icon-css@master/flags/4x3/ch.svg' },
         { id: 'eu-north-1', region: 'eu-north-1', name: 'EU (Stockholm)', ping: 'http://dynamodb.eu-north-1.amazonaws.com/ping', flag: 'https://cdn.jsdelivr.net/gh/lipis/flag-icon-css@master/flags/4x3/se.svg' },
         { id: 'sa-east-1', region: 'sa-east-1', name: 'South America (São Paulo)', ping: 'http://dynamodb.sa-east-1.amazonaws.com/ping', flag: 'https://cdn.jsdelivr.net/gh/lipis/flag-icon-css@master/flags/4x3/br.svg' },
         { id: 'us-west-1', region: 'us-west-1', name: 'US West (N. Carolina)', ping: 'http://dynamodb.us-west-1.amazonaws.com/ping', flag: 'https://cdn.jsdelivr.net/gh/lipis/flag-icon-css@master/flags/4x3/us.svg' },
